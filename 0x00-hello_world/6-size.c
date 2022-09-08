@@ -1,52 +1,24 @@
-#include <stdio.h>                                                                         
+#include <stdio.h>
 
-                                                                                           
 
-                                                                                           
+/**
+ * main-Prints the sizeof many var types
+ *
+ * Return: Always 0(Success)
+ */
+int main(void)
+{
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
-                                                                                          
-/**                                                                                        
 
-                                                                                           
-
-* main -print the string in the put function                                               
-
-                                                                                           
-
-*                                                                                          
-
-                                                                                           
-
-* Description: using the main function                                                     
-
-                                                                                           
-
-* this program prints "Programming is like building a multilingual puzzle                  
-
-                                                                                           
-
-* Return: 0                                                                                
-
-                                                                                           
-
-*/                                                                                         
-
-                                                                                           
-
-int main(void)                                                                             
-
-                                                                                           
-
-{                                                                                          
-
-        char c;
-int i;
-long lli;
-float f;
-printf("size of char: %ld byte(s)\n", sizeof(c));
-printf("size of an int: %ld byte(s)\n", sizeof(i));
-printf("size of a long int: %ld byte(\n", sizeof(li));
-printf("size of a long long int: %ld byte(\n", sizeof(lli));
-printf("size of float: %ld byte(\n", sizeof(f));
-return (0);
+	printf("Size of char: %d byte(s)\n",sizeof(a));
+	printf("Size of an int: %d byte(s)\n",sizeof(b));
+	printf("Size of a long int:%d byte(s)\n",sizeof(c));
+	printf("Size of a long long:%d byte(s)\n",sizeof(d));
+	printf("Size of float:%d byte(s)\n",sizeof(e));
+	return (0);
 }
