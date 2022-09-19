@@ -5,6 +5,7 @@
  * @s: input string
  * Return: string in reverse
  */
+
 void rev_string(char *s)
 {
 	char rev = s[0];
@@ -22,3 +23,4 @@ void rev_string(char *s)
 		s[counter] = rev;
 	}
 }
+
