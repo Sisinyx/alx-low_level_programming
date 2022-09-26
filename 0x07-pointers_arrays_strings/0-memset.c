@@ -10,16 +10,17 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-  int size = n; /* accept +ve no. */
+	int size = n; /* accept +ve no. */
 
-  if (size > 0)
-  {
-    int p;
+	if (size > 0)
+	{
+		int p;
 
-    for (p = 0; p < size; p++)
-    {
-      s[p] = b;
-    }
-  }
-  return (s);
+		for (p = 0; p < size; p++)
+		{
+			s[p] = b;
+		}
+	}
+	return (s);
 }
+
