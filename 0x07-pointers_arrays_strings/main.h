@@ -2,13 +2,9 @@
 #define MAIN_H
 
 /**
- * File: holberton.h
- * Auth: Brennan D Baraban
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x06-pointers_arrays_strings directory.
+ * void prototypes()
+ * int prototypes()
  */
-
-#include <stddef.h>
 
 int _putchar(char c);
 void *_memset(void *s, int c, size_t n);
