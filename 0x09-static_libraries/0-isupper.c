@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 /**
 *_isupper - function that verifies if a  character is uppercase or not
 *@c: tested character
@@ -11,3 +11,4 @@ int _isupper(int c)
 		return (1);
 
 	return (0);
+}
