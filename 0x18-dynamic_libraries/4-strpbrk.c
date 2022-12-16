@@ -25,3 +25,4 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 	}
 	return (0);
+}
