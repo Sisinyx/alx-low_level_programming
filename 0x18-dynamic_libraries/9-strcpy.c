@@ -5,8 +5,9 @@
  * @dest: destination
  * @src: source
  *
- * Return: pointer to dest
+ * Return: destination
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	int inc = 0;
@@ -17,7 +18,6 @@ char *_strcpy(char *dest, char *src)
 		inc++;
 	}
 	*(dest + inc) = '\0';
-
 
 	return (dest);
 }

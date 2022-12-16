@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * _memset -fills the first n bytes of memory area pointed
- * to by s with a constant byte b
+ * _memset - fills a memory block with a constant byte
  * @s: address to memory block
  * @b: char to be used
- * @n: no of bytes to be used
- * Return: a pointer to the memory area s
+ * @n: number of bytes to be used
+ *
+ * Return: pointer to the memory block
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
 	while (n)
-	{	s[n - 1] = b;
+	{
+		s[n - 1] = b;
 		n--;
 	}
 	return (s);

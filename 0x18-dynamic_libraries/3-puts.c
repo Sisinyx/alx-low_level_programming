@@ -3,10 +3,10 @@
 
 /**
  * _puts - prints a string
- * @str: string
+ *  @str: string to print
  *
- * Description: prints a string
- * On success: 0
+ *  Description: prints a string
+ *  On success: returns no error
  */
 
 void _puts(char *str)
@@ -20,3 +20,4 @@ void _puts(char *str)
 	}
 	putchar(10);
 }
+
